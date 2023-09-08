@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Joke</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+    <!-- Manual CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'css/joke.css')}}" />
+
+</head>
+<body>
+    {% with messages = get_flashed_messages(with_categories=true) %} {% if
+        messages %} {% for category, login_message in messages%}
+        <div class="alert alert-{{category}} alert-dismissible fade show" role="alert">
+            {{login_message}}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        {% endfor %} {% endif %} {% endwith %}
+
+        <h2> Here the Joke:</h2>
+        <div class="container-fluid" id="joke">
+            <textarea name="" id="" cols="120" rows="5"> {{joke}}</textarea>
+           
+        </div>
+        <br>
+        <div class="container-fluid" id="logout">
+            <a href="/logout">
+                <button>Logout</button>
+            </a>
+        </div>
+</body>
+</html>

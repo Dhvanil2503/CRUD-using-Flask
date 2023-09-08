@@ -1,0 +1,73 @@
+h2, u {
+    margin-left: 70px;
+    color: #FFFFFF;
+}
+
+input[type=text], input[type=email], input[type=password] {
+    width: 30%;
+
+    /* width: 88%; */
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    color: #FFFFFF;
+    /* Set the text color */
+    border: none;
+    border-bottom: 2px solid #FFFFFF;
+    /* Set the initial bottom border color */
+    outline: none;
+    transition: border-bottom-color 0.3s ease;
+    /* Add a smooth transition effect */
+
+}
+
+label {
+    font-weight: 700;
+}
+
+textarea {
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    color: #1d1515;
+    /* Set the text color */
+    border: none;
+    border: 2px solid #FFFFFF;
+    /* Set the initial bottom border color */
+    outline: none;
+    transition: border-bottom-color 0.3s ease;
+    /* Add a smooth transition effect */
+
+}
+
+/* registration.css */
+
+body {
+    background-image: url('IMG/bros.jpg');
+    /* Update the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Add any additional background properties here */
+}
+
+form {
+    color: black;
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    width: 70%;
+    /* margin: auto; */
+}
+
+legend {
+    font-weight: 600;
+}
+
+/* input[type=reset]
+{
+    background-color: transparent;
+} */
+
+a {
+    color: black;
+}

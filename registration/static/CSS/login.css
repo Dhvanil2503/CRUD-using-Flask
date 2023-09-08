@@ -1,0 +1,74 @@
+form {
+    margin: 100px;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 30%;
+    height: 400px;
+}
+
+h2 {
+    /* margin-left: 150px; */
+    text-align: center;
+    color: white;
+}
+
+input[type=password] {
+    margin-top: 10px;
+}
+
+input[type=email] {
+    margin-top: 10px;
+}
+
+input[type=email], input[type=password] {
+    width: 95%;
+    color: white;
+    margin-left: 10px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #FFFFFF;
+    outline: none;
+
+}
+
+.password {
+    width: 100%;
+    padding: auto;
+
+
+}
+
+input[type=submit] {
+    /* color: transparent; */
+    margin-left: 20px;
+    width: 90%;
+    margin-top: 30px;
+    background-color: transparent;
+}
+
+label {
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+p {
+    margin-top: 30px;
+    margin-left: 50px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+}
+
+body {
+    background-image: url('IMG/28.jpg');
+    /* the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Add any additional background properties here */
+}

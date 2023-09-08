@@ -1,0 +1,39 @@
+body {
+    background-image: url('IMG/luffy.jpg'); /* Update the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Add any additional background properties here */
+}
+
+h2{
+    color: #000000;
+    margin-left: 20%;
+    margin-top:23%;
+}
+#joke{
+    color: #fff;
+    margin-left: 20%;
+}
+#logout{
+    margin-left: 60%;
+   
+    /* color: transparent; */
+}
+button{
+    color: black;
+    /* border: none; */
+    font-weight: 700;
+    width: 10%;
+    background-color: skyblue;
+}
+textarea{
+    border: none;
+    color: b;
+    background-color: transparent;
+}
+/* a{
+    text-decoration: none;
+    color: white;
+    
+} */
